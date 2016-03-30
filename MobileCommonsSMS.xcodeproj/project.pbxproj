@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		763875D21BD131A600A2F6E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763875D11BD131A600A2F6E3 /* AppDelegate.swift */; };
+		763875D41BD131A600A2F6E3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763875D31BD131A600A2F6E3 /* LoginViewController.swift */; };
+		763875D91BD131A600A2F6E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 763875D71BD131A600A2F6E3 /* Main.storyboard */; };
+		763875DB1BD131A600A2F6E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 763875DA1BD131A600A2F6E3 /* Assets.xcassets */; };
+		763875DE1BD131A600A2F6E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 763875DC1BD131A600A2F6E3 /* LaunchScreen.storyboard */; };
+		763875E91BD131A600A2F6E3 /* MobileCommonsSMSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763875E81BD131A600A2F6E3 /* MobileCommonsSMSTests.swift */; };
+		763875F41BD131A600A2F6E3 /* MobileCommonsSMSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763875F31BD131A600A2F6E3 /* MobileCommonsSMSUITests.swift */; };
+		763876131BD13D4100A2F6E3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7638760A1BD13CA300A2F6E3 /* Alamofire.framework */; };
+		763876141BD13D4100A2F6E3 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7638760A1BD13CA300A2F6E3 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		763876271BD1444500A2F6E3 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 763876201BD1443300A2F6E3 /* SWXMLHash.framework */; };
+		763876281BD1444500A2F6E3 /* SWXMLHash.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 763876201BD1443300A2F6E3 /* SWXMLHash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		76F4B7501BD161E1007F1D2E /* CampaignsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F4B74F1BD161E1007F1D2E /* CampaignsTableViewController.swift */; };
+		76F4B7521BD16226007F1D2E /* MCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F4B7511BD16226007F1D2E /* MCClient.swift */; };
+		76F4B7541BD16FE0007F1D2E /* CampaignDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F4B7531BD16FE0007F1D2E /* CampaignDetailController.swift */; };
+		76FACD971BE14A0300531AE1 /* CampaignMembersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FACD961BE14A0300531AE1 /* CampaignMembersTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		763875E51BD131A600A2F6E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 763875C61BD131A600A2F6E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 763875CD1BD131A600A2F6E3;
+			remoteInfo = MobileCommonsSMS;
+		};
+		763875F01BD131A600A2F6E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 763875C61BD131A600A2F6E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 763875CD1BD131A600A2F6E3;
+			remoteInfo = MobileCommonsSMS;
+		};
+		763876091BD13CA300A2F6E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 763876011BD13CA300A2F6E3 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		7638760B1BD13CA300A2F6E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 763876011BD13CA300A2F6E3 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		7638760D1BD13CA300A2F6E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 763876011BD13CA300A2F6E3 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		7638760F1BD13CA300A2F6E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 763876011BD13CA300A2F6E3 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		763876111BD13CA300A2F6E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 763876011BD13CA300A2F6E3 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		763876151BD13D4100A2F6E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 763876011BD13CA300A2F6E3 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		7638761F1BD1443300A2F6E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 763876181BD1443300A2F6E3 /* SWXMLHash.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CD6083EF196CA106000B4F8D;
+			remoteInfo = SWXMLHash;
+		};
+		763876211BD1443300A2F6E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 763876181BD1443300A2F6E3 /* SWXMLHash.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CD9D052C1A757D8B003CCB21;
+			remoteInfo = SWXMLHashOSX;
+		};
+		763876231BD1443300A2F6E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 763876181BD1443300A2F6E3 /* SWXMLHash.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CD6083FA196CA106000B4F8D;
+			remoteInfo = SWXMLHashTests;
+		};
+		763876251BD1443300A2F6E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 763876181BD1443300A2F6E3 /* SWXMLHash.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CD9D05361A757D8B003CCB21;
+			remoteInfo = SWXMLHashOSXTests;
+		};
+		763876291BD1444500A2F6E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 763876181BD1443300A2F6E3 /* SWXMLHash.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6083EE196CA106000B4F8D;
+			remoteInfo = SWXMLHash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		763876171BD13D4100A2F6E3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				763876281BD1444500A2F6E3 /* SWXMLHash.framework in Embed Frameworks */,
+				763876141BD13D4100A2F6E3 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		763875CE1BD131A600A2F6E3 /* MobileCommonsSMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileCommonsSMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		763875D11BD131A600A2F6E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		763875D31BD131A600A2F6E3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		763875D81BD131A600A2F6E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		763875DA1BD131A600A2F6E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		763875DD1BD131A600A2F6E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		763875DF1BD131A600A2F6E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		763875E41BD131A600A2F6E3 /* MobileCommonsSMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileCommonsSMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		763875E81BD131A600A2F6E3 /* MobileCommonsSMSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileCommonsSMSTests.swift; sourceTree = "<group>"; };
+		763875EA1BD131A600A2F6E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		763875EF1BD131A600A2F6E3 /* MobileCommonsSMSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileCommonsSMSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		763875F31BD131A600A2F6E3 /* MobileCommonsSMSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileCommonsSMSUITests.swift; sourceTree = "<group>"; };
+		763875F51BD131A600A2F6E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		763876011BD13CA300A2F6E3 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		763876181BD1443300A2F6E3 /* SWXMLHash.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SWXMLHash.xcodeproj; path = SWXMLHash/SWXMLHash.xcodeproj; sourceTree = "<group>"; };
+		76F4B74F1BD161E1007F1D2E /* CampaignsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampaignsTableViewController.swift; sourceTree = "<group>"; };
+		76F4B7511BD16226007F1D2E /* MCClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCClient.swift; sourceTree = "<group>"; };
+		76F4B7531BD16FE0007F1D2E /* CampaignDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampaignDetailController.swift; sourceTree = "<group>"; };
+		76FACD961BE14A0300531AE1 /* CampaignMembersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampaignMembersTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		763875CB1BD131A600A2F6E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763876271BD1444500A2F6E3 /* SWXMLHash.framework in Frameworks */,
+				763876131BD13D4100A2F6E3 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763875E11BD131A600A2F6E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763875EC1BD131A600A2F6E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		763875C51BD131A600A2F6E3 = {
+			isa = PBXGroup;
+			children = (
+				763876181BD1443300A2F6E3 /* SWXMLHash.xcodeproj */,
+				763876011BD13CA300A2F6E3 /* Alamofire.xcodeproj */,
+				763875D01BD131A600A2F6E3 /* MobileCommonsSMS */,
+				763875E71BD131A600A2F6E3 /* MobileCommonsSMSTests */,
+				763875F21BD131A600A2F6E3 /* MobileCommonsSMSUITests */,
+				763875CF1BD131A600A2F6E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		763875CF1BD131A600A2F6E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				763875CE1BD131A600A2F6E3 /* MobileCommonsSMS.app */,
+				763875E41BD131A600A2F6E3 /* MobileCommonsSMSTests.xctest */,
+				763875EF1BD131A600A2F6E3 /* MobileCommonsSMSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		763875D01BD131A600A2F6E3 /* MobileCommonsSMS */ = {
+			isa = PBXGroup;
+			children = (
+				763875D11BD131A600A2F6E3 /* AppDelegate.swift */,
+				763875D31BD131A600A2F6E3 /* LoginViewController.swift */,
+				76F4B74F1BD161E1007F1D2E /* CampaignsTableViewController.swift */,
+				76F4B7531BD16FE0007F1D2E /* CampaignDetailController.swift */,
+				763875D71BD131A600A2F6E3 /* Main.storyboard */,
+				763875DA1BD131A600A2F6E3 /* Assets.xcassets */,
+				763875DC1BD131A600A2F6E3 /* LaunchScreen.storyboard */,
+				763875DF1BD131A600A2F6E3 /* Info.plist */,
+				76F4B7511BD16226007F1D2E /* MCClient.swift */,
+				76FACD961BE14A0300531AE1 /* CampaignMembersTableViewController.swift */,
+			);
+			path = MobileCommonsSMS;
+			sourceTree = "<group>";
+		};
+		763875E71BD131A600A2F6E3 /* MobileCommonsSMSTests */ = {
+			isa = PBXGroup;
+			children = (
+				763875E81BD131A600A2F6E3 /* MobileCommonsSMSTests.swift */,
+				763875EA1BD131A600A2F6E3 /* Info.plist */,
+			);
+			path = MobileCommonsSMSTests;
+			sourceTree = "<group>";
+		};
+		763875F21BD131A600A2F6E3 /* MobileCommonsSMSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				763875F31BD131A600A2F6E3 /* MobileCommonsSMSUITests.swift */,
+				763875F51BD131A600A2F6E3 /* Info.plist */,
+			);
+			path = MobileCommonsSMSUITests;
+			sourceTree = "<group>";
+		};
+		763876021BD13CA300A2F6E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7638760A1BD13CA300A2F6E3 /* Alamofire.framework */,
+				7638760C1BD13CA300A2F6E3 /* Alamofire.framework */,
+				7638760E1BD13CA300A2F6E3 /* Alamofire.framework */,
+				763876101BD13CA300A2F6E3 /* Alamofire iOS Tests.xctest */,
+				763876121BD13CA300A2F6E3 /* Alamofire OSX Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		763876191BD1443300A2F6E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				763876201BD1443300A2F6E3 /* SWXMLHash.framework */,
+				763876221BD1443300A2F6E3 /* SWXMLHash.framework */,
+				763876241BD1443300A2F6E3 /* SWXMLHashTests.xctest */,
+				763876261BD1443300A2F6E3 /* SWXMLHashOSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		763875CD1BD131A600A2F6E3 /* MobileCommonsSMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 763875F81BD131A600A2F6E3 /* Build configuration list for PBXNativeTarget "MobileCommonsSMS" */;
+			buildPhases = (
+				763875CA1BD131A600A2F6E3 /* Sources */,
+				763875CB1BD131A600A2F6E3 /* Frameworks */,
+				763875CC1BD131A600A2F6E3 /* Resources */,
+				763876171BD13D4100A2F6E3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				763876161BD13D4100A2F6E3 /* PBXTargetDependency */,
+				7638762A1BD1444500A2F6E3 /* PBXTargetDependency */,
+			);
+			name = MobileCommonsSMS;
+			productName = MobileCommonsSMS;
+			productReference = 763875CE1BD131A600A2F6E3 /* MobileCommonsSMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		763875E31BD131A600A2F6E3 /* MobileCommonsSMSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 763875FB1BD131A600A2F6E3 /* Build configuration list for PBXNativeTarget "MobileCommonsSMSTests" */;
+			buildPhases = (
+				763875E01BD131A600A2F6E3 /* Sources */,
+				763875E11BD131A600A2F6E3 /* Frameworks */,
+				763875E21BD131A600A2F6E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				763875E61BD131A600A2F6E3 /* PBXTargetDependency */,
+			);
+			name = MobileCommonsSMSTests;
+			productName = MobileCommonsSMSTests;
+			productReference = 763875E41BD131A600A2F6E3 /* MobileCommonsSMSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		763875EE1BD131A600A2F6E3 /* MobileCommonsSMSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 763875FE1BD131A600A2F6E3 /* Build configuration list for PBXNativeTarget "MobileCommonsSMSUITests" */;
+			buildPhases = (
+				763875EB1BD131A600A2F6E3 /* Sources */,
+				763875EC1BD131A600A2F6E3 /* Frameworks */,
+				763875ED1BD131A600A2F6E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				763875F11BD131A600A2F6E3 /* PBXTargetDependency */,
+			);
+			name = MobileCommonsSMSUITests;
+			productName = MobileCommonsSMSUITests;
+			productReference = 763875EF1BD131A600A2F6E3 /* MobileCommonsSMSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		763875C61BD131A600A2F6E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "NFL Players Association";
+				TargetAttributes = {
+					763875CD1BD131A600A2F6E3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = R9SMCDUJEN;
+					};
+					763875E31BD131A600A2F6E3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 763875CD1BD131A600A2F6E3;
+					};
+					763875EE1BD131A600A2F6E3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 763875CD1BD131A600A2F6E3;
+					};
+				};
+			};
+			buildConfigurationList = 763875C91BD131A600A2F6E3 /* Build configuration list for PBXProject "MobileCommonsSMS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 763875C51BD131A600A2F6E3;
+			productRefGroup = 763875CF1BD131A600A2F6E3 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 763876021BD13CA300A2F6E3 /* Products */;
+					ProjectRef = 763876011BD13CA300A2F6E3 /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = 763876191BD1443300A2F6E3 /* Products */;
+					ProjectRef = 763876181BD1443300A2F6E3 /* SWXMLHash.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				763875CD1BD131A600A2F6E3 /* MobileCommonsSMS */,
+				763875E31BD131A600A2F6E3 /* MobileCommonsSMSTests */,
+				763875EE1BD131A600A2F6E3 /* MobileCommonsSMSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7638760A1BD13CA300A2F6E3 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 763876091BD13CA300A2F6E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7638760C1BD13CA300A2F6E3 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 7638760B1BD13CA300A2F6E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7638760E1BD13CA300A2F6E3 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 7638760D1BD13CA300A2F6E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		763876101BD13CA300A2F6E3 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 7638760F1BD13CA300A2F6E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		763876121BD13CA300A2F6E3 /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = 763876111BD13CA300A2F6E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		763876201BD1443300A2F6E3 /* SWXMLHash.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SWXMLHash.framework;
+			remoteRef = 7638761F1BD1443300A2F6E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		763876221BD1443300A2F6E3 /* SWXMLHash.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SWXMLHash.framework;
+			remoteRef = 763876211BD1443300A2F6E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		763876241BD1443300A2F6E3 /* SWXMLHashTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SWXMLHashTests.xctest;
+			remoteRef = 763876231BD1443300A2F6E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		763876261BD1443300A2F6E3 /* SWXMLHashOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SWXMLHashOSXTests.xctest;
+			remoteRef = 763876251BD1443300A2F6E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		763875CC1BD131A600A2F6E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763875DE1BD131A600A2F6E3 /* LaunchScreen.storyboard in Resources */,
+				763875DB1BD131A600A2F6E3 /* Assets.xcassets in Resources */,
+				763875D91BD131A600A2F6E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763875E21BD131A600A2F6E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763875ED1BD131A600A2F6E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		763875CA1BD131A600A2F6E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763875D21BD131A600A2F6E3 /* AppDelegate.swift in Sources */,
+				76F4B7541BD16FE0007F1D2E /* CampaignDetailController.swift in Sources */,
+				763875D41BD131A600A2F6E3 /* LoginViewController.swift in Sources */,
+				76FACD971BE14A0300531AE1 /* CampaignMembersTableViewController.swift in Sources */,
+				76F4B7521BD16226007F1D2E /* MCClient.swift in Sources */,
+				76F4B7501BD161E1007F1D2E /* CampaignsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763875E01BD131A600A2F6E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763875E91BD131A600A2F6E3 /* MobileCommonsSMSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763875EB1BD131A600A2F6E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763875F41BD131A600A2F6E3 /* MobileCommonsSMSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		763875E61BD131A600A2F6E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 763875CD1BD131A600A2F6E3 /* MobileCommonsSMS */;
+			targetProxy = 763875E51BD131A600A2F6E3 /* PBXContainerItemProxy */;
+		};
+		763875F11BD131A600A2F6E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 763875CD1BD131A600A2F6E3 /* MobileCommonsSMS */;
+			targetProxy = 763875F01BD131A600A2F6E3 /* PBXContainerItemProxy */;
+		};
+		763876161BD13D4100A2F6E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 763876151BD13D4100A2F6E3 /* PBXContainerItemProxy */;
+		};
+		7638762A1BD1444500A2F6E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWXMLHash;
+			targetProxy = 763876291BD1444500A2F6E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		763875D71BD131A600A2F6E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				763875D81BD131A600A2F6E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		763875DC1BD131A600A2F6E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				763875DD1BD131A600A2F6E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		763875F61BD131A600A2F6E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		763875F71BD131A600A2F6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		763875F91BD131A600A2F6E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = MobileCommonsSMS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nflpa.MobileCommonsSMS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		763875FA1BD131A600A2F6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = MobileCommonsSMS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nflpa.MobileCommonsSMS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		763875FC1BD131A600A2F6E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MobileCommonsSMSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nflpa.MobileCommonsSMSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileCommonsSMS.app/MobileCommonsSMS";
+			};
+			name = Debug;
+		};
+		763875FD1BD131A600A2F6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MobileCommonsSMSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nflpa.MobileCommonsSMSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileCommonsSMS.app/MobileCommonsSMS";
+			};
+			name = Release;
+		};
+		763875FF1BD131A600A2F6E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MobileCommonsSMSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nflpa.MobileCommonsSMSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MobileCommonsSMS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		763876001BD131A600A2F6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MobileCommonsSMSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nflpa.MobileCommonsSMSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MobileCommonsSMS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		763875C91BD131A600A2F6E3 /* Build configuration list for PBXProject "MobileCommonsSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				763875F61BD131A600A2F6E3 /* Debug */,
+				763875F71BD131A600A2F6E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		763875F81BD131A600A2F6E3 /* Build configuration list for PBXNativeTarget "MobileCommonsSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				763875F91BD131A600A2F6E3 /* Debug */,
+				763875FA1BD131A600A2F6E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		763875FB1BD131A600A2F6E3 /* Build configuration list for PBXNativeTarget "MobileCommonsSMSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				763875FC1BD131A600A2F6E3 /* Debug */,
+				763875FD1BD131A600A2F6E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		763875FE1BD131A600A2F6E3 /* Build configuration list for PBXNativeTarget "MobileCommonsSMSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				763875FF1BD131A600A2F6E3 /* Debug */,
+				763876001BD131A600A2F6E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 763875C61BD131A600A2F6E3 /* Project object */;
+}
